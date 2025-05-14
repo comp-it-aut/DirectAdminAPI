@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate -i /local/directadmin-spec.json -g php -o /local --additional-properties=invokerPackage=COMPITAUT\\DirectAdminAPI,vendorName=COMPITAUT,packageName=DirectAdminAPI,licenseName=MIT,variableNamingConvention=camelCase,developerOrganization=comp-it-aut,developerOrganizationUrl=https://comp-it-aut.nl
