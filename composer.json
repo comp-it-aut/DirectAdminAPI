@@ -1,4 +1,5 @@
 {
+    "name": "compitaut/directadmin-api",
     "description": "Swagger API for DirectAdmin server",
     "keywords": [
         "openapitools",
